@@ -81,11 +81,11 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*ROBIN [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*wa.me/message/WKGLBR2PCETWD1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/GAOhr0qNK7KEvJwbenGivZ*`;
+            const sid = `*ASHIRA-MD [Limited Edition Bot]*\n\n👉 ${string_session} 👈\n\n*"⚡ Session ID Generated! ⚡ Copy this ID and insert it into config.js to power up your system." 🔗🖥️*\n\n*ASHIRA-MD Owner*\n\n*wa.me/0782775389*\n\n*You can ask anything about this Link.*\n\n*wa.me/0782775389*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20WP.jpg",
+                url: "https://github.com/Nsbaksbdnsj/ASHIRA-LOGO/blob/main/Leonardo_Anime_XL_A_breathtaking_anime_girl_inspired_by_Zero_T_0.jpg?raw=true",
               },
               caption: sid,
             });
