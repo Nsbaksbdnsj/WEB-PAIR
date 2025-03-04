@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://github.com/Nsbaksbdnsj/ASHIRA-LOGO/blob/main/Leonardo_Anime_XL_A_breathtaking_anime_girl_inspired_by_Zero_T_0.jpg?raw=true",
+                url: "https://raw.githubusercontent.com/Nsbaksbdnsj/ASHIRA-LOGO/refs/heads/main/Leonardo_Anime_XL_A_breathtaking_anime_girl_inspired_by_Zero_T_0.jpg",
               },
               caption: sid,
             });
